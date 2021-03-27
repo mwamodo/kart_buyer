@@ -1,7 +1,6 @@
 const webpack = require("webpack")
 const env = require('dotenv').config()
 
-
 module.exports = {
 mode: 'universal',
  //mode: 'spa',
@@ -45,8 +44,6 @@ mode: 'universal',
             method: 'get',
             propertyName: 'data'
           },
-
-         
         }
       }
     }
@@ -65,12 +62,12 @@ mode: 'universal',
   },
 
   css: [
-  
+
     '~/assets/css/tailwind.css',
       '~assets/styles/app.scss'
     //'~/node_modules/bootstrap/dist/css/bootstrap.css',
   ],
-  
+
   plugins: [
      '~/plugins/mixins/user.js',
      '~/plugins/mixins/validation.js',
