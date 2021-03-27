@@ -1,8 +1,8 @@
 {
-  "name": "GegoCart-BuyerApp",
+  "name": "kart_buyer",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Karthick Kumar <karthick@gegosoft.com>",
+  "description": "kart buyer web application",
+  "author": "Mwamodo Erick <erick@mwamodo.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
